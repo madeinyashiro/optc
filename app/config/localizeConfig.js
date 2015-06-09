@@ -54,6 +54,24 @@ angular.module('app')
 			BB_SILVER: 'Plata',
 			BB_GOLD: 'Oro'
 		});
+		$translateProvider.translations('fr', {
+			NAV_TURTLE: 'Bonus Tortues',
+			NAV_BARREL: 'Casse-Tonneau',
+			NAV_EVENT: 'Évenement',
+			NAV_SETTINGS: 'Paramètres',
+			TT_TITLE: 'Calculateur Bonus Tortues',
+			TT_DIGIT: '6ème chiffre ID:',
+			TT_FORMAT: 'Format 24h',
+			TT_TIMEZONE: 'Fuseau Horaire:',
+			TT_SEEMORE: 'Plus',
+			BB_TITLE: 'Casse-Tonneau',
+			BB_TIME: 'Temps avant prochaine rotation:',
+			BB_ALT: 'Voir les heures',
+			BB_DATE: 'Date',
+			BB_WOODEN: 'Bois',
+			BB_SILVER: 'Argent',
+			BB_GOLD: 'Or'
+		})
 		$translateProvider.preferredLanguage('en');
 		$translateProvider.useSanitizeValueStrategy('escaped');
 	});
